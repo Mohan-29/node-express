@@ -1,0 +1,33 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "Simple node express server",
+  "main": "app.js",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohan-29/node-express.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "Mohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohan-29/node-express/issues"
+  },
+  "homepage": "https://github.com/Mohan-29/node-express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
